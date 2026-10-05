@@ -24,12 +24,22 @@ Settings → Clear Storage, and all app data by uninstalling the app.
 
 ## Connections to third parties
 
-To display charts and run analyses, the app downloads public market
-data directly from Binance (for example api.binance.com,
-fapi.binance.com and data-api.binance.vision). These requests contain
-no personal data from the app. As with any internet connection,
-Binance can see your IP address. Binance's own privacy policy applies
-to these requests.
+To display charts and run analyses, the app connects directly to
+Binance's public market data services only:
+
+- data-api.binance.vision and data-stream.binance.vision (spot market data)
+- fapi.binance.com and fstream.binance.com (futures and stock market data)
+
+These requests contain no personal data. They identify the app by name
+and version, and as with any internet connection, Binance can see your
+IP address. Binance's own privacy policy applies to these requests.
+
+The app does not contact any other servers. Text you type into the
+strategy assistant is processed locally on your device.
+
+Visual Backtester runs on Microsoft WebView2, a Windows component
+provided by Microsoft, which may have its own update and diagnostic
+connections governed by Microsoft's privacy policy.
 
 ## Children
 
