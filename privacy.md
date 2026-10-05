@@ -42,4 +42,4 @@ page with a new effective date.
 
 ## Contact
 
-Questions about this policy: cuesta.direct@gmail.com
+Questions about this policy: cuestadev@proton.me
