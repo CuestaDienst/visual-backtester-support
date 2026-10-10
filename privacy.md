@@ -1,6 +1,6 @@
 # Privacy Policy – Visual Backtester
 
-*Effective date: October 5, 2026*
+*Effective date: October 10, 2026*
 
 Visual Backtester is a desktop application for analysing historical
 market data. This policy explains what data the app handles.
@@ -34,8 +34,7 @@ These requests contain no personal data. They identify the app by name
 and version, and as with any internet connection, Binance can see your
 IP address. Binance's own privacy policy applies to these requests.
 
-The app does not contact any other servers. Text you type into the
-strategy assistant is processed locally on your device.
+The app does not contact any other servers.
 
 Visual Backtester runs on Microsoft WebView2, a Windows component
 provided by Microsoft, which may have its own update and diagnostic
