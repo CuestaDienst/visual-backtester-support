@@ -1,8 +1,8 @@
-# Privacy Policy – Visual Backtester
+# Privacy Policy – Backsight
 
 *Effective date: October 10, 2026*
 
-Visual Backtester is a desktop application for analysing historical
+Backsight (Setup Backtester) is a desktop application for analysing historical
 market data. This policy explains what data the app handles.
 
 ## Data we collect
@@ -36,7 +36,7 @@ IP address. Binance's own privacy policy applies to these requests.
 
 The app does not contact any other servers.
 
-Visual Backtester runs on Microsoft WebView2, a Windows component
+Backsight runs on Microsoft WebView2, a Windows component
 provided by Microsoft, which may have its own update and diagnostic
 connections governed by Microsoft's privacy policy.
 
