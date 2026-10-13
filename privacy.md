@@ -1,6 +1,6 @@
 # Privacy Policy – Backsight
 
-*Effective date: October 10, 2026*
+*Effective date: October 13, 2026*
 
 Backsight (Setup Backtester) is a desktop application for analysing historical
 market data. This policy explains what data the app handles.
@@ -56,9 +56,11 @@ report service, which runs on Cloudflare (Cloudflare Workers):
 
 The report is stored as an entry in a private repository on GitHub that
 only we can access, and is used only to fix problems and, if you gave
-an email address, to reply. Our report service does not store your IP
-address; it only uses it briefly, in hashed form, to limit the number of
-reports. Cloudflare and GitHub process the data on our behalf under their
+an email address, to reply. Your IP address is not saved with your report
+or anywhere else by our report service: it is used only to limit how many
+reports can be sent per minute, and Cloudflare keeps that counter for about
+a minute. Logging is turned off for the report service.
+Cloudflare and GitHub process the data on our behalf under their
 own privacy policies. If you prefer, you can send the report by email
 instead; then your email provider applies. To have a report deleted,
 write to cuestadev@proton.me.
