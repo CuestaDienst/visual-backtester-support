@@ -1,6 +1,6 @@
 # Privacy Policy – Backsight
 
-*Effective date: October 13, 2026*
+*Effective date: October 20, 2026*
 
 Backsight (Setup Backtester) is a desktop application for analysing historical
 market data. This policy explains what data the app handles.
@@ -19,7 +19,8 @@ The app stores the following locally on your computer only:
 - your saved analysis results
 - downloaded historical market data (price candles)
 
-This data never leaves your device and is not sent to us. You can
+This data never leaves your device, except the strategy and result you
+choose to include in a bug report (see below). You can
 delete the downloaded market data at any time via
 Settings → Clear Storage, and all app data by uninstalling the app.
 
@@ -50,9 +51,13 @@ report service, which runs on Cloudflare (Cloudflare Workers):
 
 - the description you typed,
 - your email address, only if you enter one (to answer you),
-- technical information, shown to you before sending and optional:
-  app version, Windows version, the selected market and timeframe,
-  and the last error messages shown in the app (file paths removed).
+- technical information, shown to you before sending and optional (one
+  checkbox): app version, Windows version, the selected market and
+  timeframe, whether the chart was live or in replay, your last analysed
+  strategy as data (its drawings, levels, prices, management rule and
+  analysis settings) with its result numbers, and the last error
+  messages shown in the app (file paths removed). This contains no
+  personal data; it lets us re-run your analysis exactly.
 
 The report is stored as an entry in a private repository on GitHub that
 only we can access, and is used only to fix problems and, if you gave
